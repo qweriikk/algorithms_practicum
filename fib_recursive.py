@@ -11,6 +11,5 @@ def run_fib_recursive():
         result = fib(n)
         elapsed_time = (time.time() - start_time) * 1000 
         print(f"fib({n}) = {result}, Time: {elapsed_time:.2f} ms")
-    print("Сложность алгоритма: экспоненциальная (O(2^n)).")
 
 run_fib_recursive()
